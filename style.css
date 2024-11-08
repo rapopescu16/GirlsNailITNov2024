@@ -49,3 +49,48 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+/* Centering and styling the table */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff69b4;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
